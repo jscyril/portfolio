@@ -406,6 +406,10 @@ main {
     margin-top: 2em;
   }
 
+  .about__desc {
+    text-align: left;
+  }
+
   .footer {
     padding: 2em;
     margin-top: 3em;
