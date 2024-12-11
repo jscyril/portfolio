@@ -3,5 +3,8 @@
 @tailwind utilities;
 
 body {
-  background-color: rgb(3 7 18);
+  background-color: #0b132b;
+}
+html {
+  scroll-behavior: smooth;
 }
