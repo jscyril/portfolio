@@ -44,25 +44,26 @@ export default function Navbar() {
           {/* Desktop Menu */}
           <div className="hidden md:flex md:items-center md:space-x-6">
             <a
-              href="/about"
-              className="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#6FFFE9] hover:text-[#0B132B] transition-colors duration-300"
+              href="#about"
+              className="block px-3 py-2 rounded-md text-base font-medium hover:bg-[#6FFFE9] hover:text-[#0B132B] transition-colors duration-300"
             >
               About
             </a>
             <a
-              href="/projects"
+              href="#projects"
               className="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#6FFFE9] hover:text-[#0B132B] transition-colors duration-300"
             >
               Projects
             </a>
             <a
-              href="/contact"
+              href="#contact"
               className="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#6FFFE9] hover:text-[#0B132B] transition-colors duration-300"
             >
               Contact
             </a>
             <a
-              href="/resume"
+              href="https://drive.google.com/file/d/1RxT7dXFQLgYDUx8LPj2a80C_wVlMW-d5/view?usp=sharing"
+              target="_blank"
               className="px-3 py-2 rounded-md text-sm font-medium border border-[#6FFFE9] text-[#6FFFE9] hover:bg-[#6FFFE9] hover:text-[#0B132B] transition-colors duration-300"
             >
               Resume
