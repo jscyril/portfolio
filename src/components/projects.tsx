@@ -43,9 +43,10 @@ const ProjectsSection = () => {
           {projects.map((project, index) => (
             <motion.div
               key={index}
-              className="bg-[#1c2330] p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 flex flex-col justify-between"
+              className="bg-[#1c2330] p-8 rounded-xl shadow-lg hover:shadow-2xl flex flex-col justify-between"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
               transition={{ duration: 1 }}
             >
               {/* Project Image */}
@@ -53,7 +54,7 @@ const ProjectsSection = () => {
                 <img
                   src={project.imageUrl}
                   alt={project.title}
-                  className="w-full h-48 object-cover rounded-lg shadow-lg filter grayscale group-hover:grayscale-0 transition duration-500"
+                  className="w-full h-48 object-cover rounded-lg shadow-lg group-hover:grayscale-0"
                 />
               </div>
 
