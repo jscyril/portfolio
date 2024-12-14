@@ -49,7 +49,7 @@ const HeroSection = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="@/assets/logo-linkedin.png"
+              src="public/logo-linkedin.png"
               alt="LinkedIn"
               className="w-8 h-8 hover:opacity-80 transition duration-300"
             />
@@ -60,7 +60,7 @@ const HeroSection = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="@/assets/github.png"
+              src="public/github.png"
               alt="GitHub"
               className="w-8 h-8 hover:opacity-80 transition duration-300"
             />
