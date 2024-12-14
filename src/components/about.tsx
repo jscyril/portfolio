@@ -104,7 +104,7 @@ const AboutMe = () => {
           >
             <div className="relative group">
               <img
-                src="src/assets/avatar.png" // Replace with your profile image path
+                src="@/assets/avatar.png" // Replace with your profile image path
                 alt="Jacob Cyril"
                 className="rounded-lg object-cover shadow-lg w-full max-w-sm mx-auto filter grayscale hover:grayscale-0 transition duration-500 ease-in-out"
               />
