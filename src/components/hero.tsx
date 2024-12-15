@@ -33,7 +33,7 @@ const HeroSection = () => {
 
         {/* Button */}
         <motion.button
-          className="mt-6 px-8 py-4 bg-[#6FFFE9] text-[#0B132B] text-lg font-medium rounded-lg hover:bg-[#0B132B] hover:text-[#6FFFE9]"
+          className="mt-6 px-8 py-4 bg-[#6FFFE9] text-[#0B132B] text-lg font-medium rounded-lg hover:bg-[#0B132B] hover:text-[#6FFFE9] transition-colors duration-300"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1 }}
