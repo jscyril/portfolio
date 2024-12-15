@@ -7,7 +7,7 @@ const projects = [
       "A full-stack application built with React, NodeJS, Express, and PostgreSQL. It features a user authentication system, real-time data updates, and a clean user interface.",
     technologies: ["NodeJS", "Express", "PostgreSQL", "React"],
     githubLink: "https://github.com/jscyril/UniLink",
-    imageUrl: "src/assets/unilink.png",
+    imageUrl: "unilink.png",
   },
   {
     title: "HabiTrax",
@@ -15,7 +15,7 @@ const projects = [
       "A mobile app built with React Native and Expo Framework that helps users track their habits.",
     technologies: ["React Native", "NodeJS", "ExpressJS", "MongoDB"],
     githubLink: "https://github.com/jscyril/HabiTrax",
-    imageUrl: "src/assets/habitrax.png",
+    imageUrl: "habitrax.png",
   },
   // Add more projects as needed
 ];

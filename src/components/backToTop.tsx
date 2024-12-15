@@ -29,7 +29,7 @@ const BackToTopButton = () => {
       style={{ backgroundColor: "#1c2541" }}
     >
       <img
-        src="src/assets/arrow-up-sharp.png"
+        src="arrow-up-sharp.png"
         alt="Back to Top"
         className="w-6 h-6 mx-auto"
       />

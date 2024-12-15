@@ -42,30 +42,36 @@ const HeroSection = () => {
         </motion.button>
 
         {/* Social Media Icons */}
-        <div className="flex space-x-8 justify-center mt-8">
-          <a
-            href="https://www.linkedin.com/in/jacob-sebastian-cyril/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="public/logo-linkedin.png"
-              alt="LinkedIn"
-              className="w-8 h-8 hover:opacity-80 transition duration-300"
-            />
-          </a>
-          <a
-            href="https://github.com/jscyril"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="public/github.png"
-              alt="GitHub"
-              className="w-8 h-8 hover:opacity-80 transition duration-300"
-            />
-          </a>
-        </div>
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+        >
+          <div className="flex space-x-8 justify-center mt-8">
+            <a
+              href="https://www.linkedin.com/in/jacob-sebastian-cyril/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="logo-linkedin.png"
+                alt="LinkedIn"
+                className="w-8 h-8 hover:opacity-80 transition duration-300"
+              />
+            </a>
+            <a
+              href="https://github.com/jscyril"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="github.png"
+                alt="GitHub"
+                className="w-8 h-8 hover:opacity-80 transition duration-300"
+              />
+            </a>
+          </div>
+        </motion.div>
       </div>
     </div>
   );
